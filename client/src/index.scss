@@ -1,0 +1,140 @@
+$_black: #333333;
+$_grey: #eeeeee;
+$_pink: #cc0066;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body styles and general resets */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: $_black;
+  font-size: 12pt;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  a:visited,
+  p {
+    font-weight: normal;
+    text-decoration: none;
+    color: $_black;
+  }
+
+  button:hover,
+  span:hover,
+  button:focus,
+  span:focus {
+    outline: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+}
+
+/* the outer app div */
+#App {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.header {
+  grid-area: 1 / 1 / span 1 / span 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(180deg, #ffd4d4 0%, #ddefbf 100%);
+  padding: 25px 25px 0px 25px;
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .insta {
+      width: 30px;
+      height: auto;
+    }
+
+    .logo {
+      width: 35px;
+    }
+  }
+
+  h2 {
+    margin: 120px 0;
+    font-family: Helvetica-Bold;
+    font-size: 24px;
+    color: #000000;
+    line-height: 30px;
+  }
+
+  .month {
+    background: #000000;
+    border-radius: 25px;
+    width: 200px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 17px;
+
+    h3 {
+      color: white;
+      font-size: 14px;
+    }
+  }
+}
+
+.featured__img {
+  grid-area: 2 / 1 / span 1 / span 4;
+  text-align: center;
+  margin: 200px 0 0 0;
+
+  img {
+    width: 100%;
+    max-width: 750px;
+  }
+}
+
+.cards_desc {
+  grid-area: 3 / 1 / span 1 / span 4;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  grid-area: 4 / 1 / span 1 / span 4;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  .card_wrap {
+    padding: 20px;
+    background-color: white;
+  }
+
+  .card {
+    padding: 40px;
+    background-color: pink;
+  }
+}
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
