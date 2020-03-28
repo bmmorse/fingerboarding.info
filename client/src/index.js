@@ -12,21 +12,9 @@ import {
 import "./index.scss";
 
 // ______________________________ images
-const prefix = "https://s3.us-east-2.amazonaws.com/fingerboarding.info/";
-const images = {
-  logo: `${prefix}logo_50x50.png`,
-  insta: `${prefix}insta_250x250.png`,
-  main: `${prefix}main.jpg`
-};
+import images from "./images";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      menu: false
-    };
-  }
-
   render() {
     return (
       <div id="App">
@@ -37,36 +25,58 @@ class App extends React.Component {
             <Route exact path="/">
               <div className="header">
                 <nav>
-                  <img className="logo" src={images.logo}></img>
-                  <img className="insta" src={images.insta}></img>
+                  <img className="logo" src={images.site.logo}></img>
+                  <h1>FINGERBOARDING.INFO</h1>
+                  <img className="insta" src={images.site.instablack}></img>
                 </nav>
-                <h2>
-                  Keeping track of the world's best fingerboarding companies
-                </h2>
-                <div className="month">
-                  <h3>March 2020</h3>
+              </div>
+
+              <div className="featured">
+                <img src={images.featured.lionelsimonfb}></img>
+                <div className="featured__desc">
+                  <p>
+                    <a>@lionelsimonfb</a>
+                  </p>
+                  <p className="photo">
+                    photo: <a className="photo">@romane_en_selle</a>
+                  </p>
                 </div>
               </div>
 
-              <div className="featured__img">
-                <img className="main-img" src={images.main}></img>
-              </div>
+              <div className="posts">
+                <div className="posts__header">
+                  <h2>March 2020</h2>
+                  <h3>Company Releases</h3>
+                  <img className="logo" src={images.site.logo}></img>
+                </div>
 
-              <div className="cards_desc">
-                <h3>March Releases</h3>
-              </div>
-              <div className="cards">
-                <div className="card_wrap">
-                  <div className="card">1</div>
-                </div>
-                <div className="card_wrap">
-                  <div className="card">2</div>
-                </div>
-                <div className="card_wrap">
-                  <div className="card">3</div>
-                </div>
-                <div className="card_wrap">
-                  <div className="card">4</div>
+                <div className="posts__list">
+                  <div className="post">
+                    <h3>March 11</h3>
+                    <img src={images.posts.darkwood_030320} alt="" />
+                    <div className="post__desc">
+                      <img src={images.companies.darkwood_logo} alt="" />
+                      <div className="desc">
+                        <h4>Darkwood Fingerboards</h4>
+                        <p>
+                          New stock - CNC laser engraved graphics, RARE
+                          Surrealist art including MC Escher stairs
+                        </p>
+                        <div className="links">
+                          <img
+                            className="shopping"
+                            src={images.site.shopping}
+                            alt=""
+                          />
+                          <img
+                            className="instawhite"
+                            src={images.site.instawhite}
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </Route>
