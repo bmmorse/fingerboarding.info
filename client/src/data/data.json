@@ -1,0 +1,82 @@
+[
+  {
+    "date": "4/5/2020",
+    "company": "Wush",
+    "desc": "3 Years of Wush Stock",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040520.Wush.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Wush.jpg",
+    "site": "https://wush.bigcartel.com/",
+    "instagram": "https://www.instagram.com/wushdecks/",
+    "key": "040520wush"
+  },
+  {
+    "date": "4/5/2020",
+    "company": "Sex Fingerboards",
+    "desc": "Stock drop",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040520.Sex.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/SexFingerboards.jpg",
+    "site": "https://sexfingerboards.bigcartel.com/",
+    "instagram": "https://www.instagram.com/sex.fingerboards/",
+    "key": "040520sex"
+  },
+  {
+    "date": "4/4/2020",
+    "company": "Goat on the Road",
+    "desc": "Galaxy boards - 4 available",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040420.Goat.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/GoatOnTheRoad.jpg",
+    "site": "https://goatontheroadfb.bigcartel.com/",
+    "instagram": "https://www.instagram.com/goatontheroad_fb/",
+    "key": "040420goat"
+  },
+  {
+    "date": "4/4/2020",
+    "company": "DK Fingerboards",
+    "desc": "Completes with DK wheels, new graphics",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040420.DK.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/DK.jpg",
+    "site": "https://www.dkfingerboards.com/",
+    "instagram": "https://www.instagram.com/dkfb74/",
+    "key": "040420dk"
+  },
+  {
+    "date": "4/4/2020",
+    "company": "Redemption Fingerboards",
+    "desc": "First new graphics in 5 months - 2020 Spring stock drop",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040420.Redemption.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Redemption.jpg",
+    "site": "https://www.redemptionfb.com/",
+    "instagram": "https://www.instagram.com/redemptionfingerboards/",
+    "key": "040420redemption"
+  },
+  {
+    "date": "4/3/2020",
+    "company": "Muck FB",
+    "desc": "New split patterns",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040320.Muck.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Muck.jpg",
+    "site": "https://www.muckfb.com/",
+    "instagram": "https://www.instagram.com/muckspoppg/",
+    "key": "040320muck"
+  },
+  {
+    "date": "4/1/2020",
+    "company": "Tricky Fingerboards",
+    "desc": "Stock drop, new graphics",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040120.Tricky.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Wush.jpg",
+    "site": "https://www.trickyfingerboards.com/",
+    "instagram": "https://www.instagram.com/tricky_fingerboards/",
+    "key": "040120tricky"
+  },
+  {
+    "date": "4/1/2020",
+    "company": "Collins Wood",
+    "desc": "New custom bench, discounted curbs",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040120.Collinswood.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Collinswood.jpg",
+    "site": "https://collinswood.bigcartel.com/",
+    "instagram": "https://www.instagram.com/psychedylic/",
+    "key": ""
+  }
+]
