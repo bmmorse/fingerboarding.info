@@ -21,7 +21,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      displayed: 3,
+      displayed: 5,
     };
   }
 
@@ -35,7 +35,7 @@ class App extends React.Component {
   };
 
   loadMore = () => {
-    this.setState({ displayed: this.state.displayed + 3 });
+    this.setState({ displayed: this.state.displayed + 5 });
   };
 
   render() {
