@@ -62,7 +62,7 @@ class App extends React.Component {
                   }}
                   className="loadButton"
                 >
-                  Load More
+                  MORE
                 </button>
               </div>
             </Route>
