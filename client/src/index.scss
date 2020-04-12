@@ -89,8 +89,8 @@ body {
   padding: 30px 20px;
   margin: 0 0 60px 0;
   background: #ffffff;
-
-  box-shadow: 0 0 8px 8px rgba(230, 230, 230, 0.12);
+  box-shadow: 0 0 8px 8px rgba(230, 230, 230, 0.5);
+  -webkit-box-shadow: 0 0 8px 8px rgba(230, 230, 230, 0.5);
 
   .postHeader {
     display: grid;
@@ -140,7 +140,7 @@ body {
     padding: 0 5%;
     a {
       width: 45%;
-      height: 60px;
+      height: 40px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -148,7 +148,7 @@ body {
       font-size: 13px;
       font-weight: 300;
       color: white;
-      background-image: linear-gradient(180deg, #33494d 0%, #6b4303 100%);
+      background-image: linear-gradient(180deg, #33494d 0%, #111111 100%);
       box-shadow: 0 4px 8px -6px #7f7f7f;
       border-radius: 5px;
     }
