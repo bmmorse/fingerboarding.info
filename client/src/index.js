@@ -38,6 +38,10 @@ class App extends React.Component {
     this.setState({ displayed: this.state.displayed + 5 });
   };
 
+  reload = () => {
+    window.location.reload();
+  };
+
   render() {
     return (
       <div id="App">
@@ -48,7 +52,11 @@ class App extends React.Component {
             <Route exact path="/">
               <div className="header">
                 <Logo className="logo" />
-                <h1>fingerboarding.info</h1>
+                <h1>
+                  <a href="#" onClick={this.reload}>
+                    fingerboarding.info
+                  </a>
+                </h1>
               </div>
 
               <div className="posts">

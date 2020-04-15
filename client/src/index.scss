@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 
 $_black: #333333;
 $_grey: #d0d0d0;
@@ -8,15 +8,13 @@ $_pink: #cc0066;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Roboto", sans-serif;
 }
 
 /* body styles and general resets */
 body {
   color: $_black;
   font-size: 12pt;
-
+  font-family: "Open Sans", sans-serif;
   img {
     display: block;
   }
@@ -78,7 +76,6 @@ body {
   padding: 0 20px;
   h2 {
     text-align: center;
-    font-family: Roboto;
     font-size: 10px;
     color: #2f2f2f;
     margin-bottom: 45px;
@@ -106,8 +103,8 @@ body {
     }
 
     .companyName {
-      font-family: Roboto;
       font-size: 20px;
+      line-height: 20px;
       font-weight: 400;
     }
 
@@ -143,8 +140,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 300;
       color: white;
       background-image: linear-gradient(180deg, #33494d 0%, #111111 100%);
@@ -159,14 +155,15 @@ body {
   justify-content: center;
   margin: 100px 0;
   .loadButton {
-    width: 100%;
+    width: 70%;
     margin: 0 30px;
     border: none;
     height: 60px;
-    border: 1px solid #979797;
-    border-radius: 8px;
-    font-size: 13px;
-    color: #000000;
-    background: white;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    background-image: linear-gradient(179deg, #4b4b4b 1%, #4b0000 100%);
+    box-shadow: 0 0 24px 7px #fffacc;
+    border-radius: 30px;
   }
 }

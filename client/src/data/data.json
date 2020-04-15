@@ -1,10 +1,110 @@
 [
   {
+    "date": "4/17/2020",
+    "key": "041720lakewood",
+    "company": "Lakewood FB",
+    "desc": "Stock drop",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Lakewood.041720.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Lakewood.jpg",
+    "site": "https://lakewoodfb.bigcartel.com/",
+    "instagram": "https://www.instagram.com/lakewoodfb/"
+  },
+  {
+    "date": "4/15/2020",
+    "key": "041520blackriver",
+    "company": "Blackriver",
+    "desc": "Official Blackriver wheel release",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Blackriver.041520.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Blackriver.jpg",
+    "site": "https://blackriver-shop.com/",
+    "instagram": "https://www.instagram.com/blackriver_official/"
+  },
+  {
+    "date": "4/15/2020",
+    "key": "041520chems",
+    "company": "Chems FB",
+    "desc": "New Grim color ways and upgraded 34mm trucks with Rolling Fingers Mini Wheels, Level Up Bushings, and wheel washers",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Chems.041520.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Chems.jpg",
+    "site": "https://www.chemsfb.com/",
+    "instagram": "https://www.instagram.com/chemsfb/"
+  },
+  {
+    "date": "4/15/2020",
+    "key": "041520zoom",
+    "company": "Zoom Decks",
+    "desc": "600 follower shop update",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Zoom.041520.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/ZoomDecks.jpg",
+    "site": "https://www.zoomfingerboards.com/",
+    "instagram": "https://www.instagram.com/zoomdecks/"
+  },
+  {
+    "date": "4/14/2020",
+    "key": "041420collins",
+    "company": "Collins Wood",
+    "desc": "Custom cannabis decks, fully hand burned and drawn",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Collinswood.041420.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Collinswood.jpg",
+    "site": "https://collinswood.bigcartel.com/",
+    "instagram": "https://www.instagram.com/collinswoodco/"
+  },
+  {
+    "date": "4/14/2020",
+    "key": "041420fbk",
+    "company": "Fingerboard FbK",
+    "desc": "New stock drop",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/fingerboardFBK.041420.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/fingerboardFBK.jpg",
+    "site": "https://www.instagram.com/fingerboardfbk/",
+    "instagram": "https://www.instagram.com/fingerboardfbk/"
+  },
+  {
+    "date": "4/13/2020",
+    "key": "41320enso",
+    "company": "Enso Fingerboards",
+    "desc": "Split ply stock drop",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Enso.041320.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Enso.jpg",
+    "site": "https://www.ensofingerboards.com/",
+    "instagram": "https://www.instagram.com/ensofingerboards/"
+  },
+  {
+    "date": "4/13/2020",
+    "key": "041320muck",
+    "company": "Muck FB",
+    "desc": "Natural blanks sale, 2 for $25 (different shapes)",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Muck.041320.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Muck.jpg",
+    "site": "https://www.muckfb.com/",
+    "instagram": "https://www.instagram.com/muckspoppg/"
+  },
+  {
+    "date": "4/12/2020",
+    "key": "041120peak",
+    "company": "Peak Fingerboards",
+    "desc": "Stock drop, including city skylines and holographics",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Peak.041220.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Peak.jpg",
+    "site": "https://peakfbs.bigcartel.com/",
+    "instagram": "https://www.instagram.com/peakfingerboards/"
+  },
+  {
+    "date": "4/12/2020",
+    "key": "041220ziak",
+    "company": "Ziak Fingerboard",
+    "desc": "New split ply",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Ziak.041220.jpg",
+    "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Ziak.jpg",
+    "site": "https://www.instagram.com/ziak_board/",
+    "instagram": "https://www.instagram.com/ziak_board/"
+  },
+  {
     "date": "4/11/2020",
     "key": "041120dk",
     "company": "DK Fingerboards",
     "desc": "Wheel drop",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/041120.DK.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/DK.041120.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/DK.jpg",
     "site": "https://www.dkfingerboards.com/",
     "instagram": "https://www.instagram.com/dkfb74/"
@@ -14,7 +114,7 @@
     "key": "041120goo",
     "company": "Goo LTD",
     "desc": "Major stock refresh including Goo Jersey Devils release",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/041120.Goo.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Goo.041120.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Goo.jpg",
     "site": "https://goofb.bigcartel.com/",
     "instagram": "https://www.instagram.com/goo.ltd/"
@@ -24,7 +124,7 @@
     "key": "041120unique",
     "company": "Unique Decks",
     "desc": "New stock drop",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/041120.Unique.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Unique.041120.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Unique.jpg",
     "site": "https://uniquedecks.co/",
     "instagram": "https://www.instagram.com/uniquedecks/"
@@ -34,7 +134,7 @@
     "key": "041020asi",
     "company": "ASI Berlin Shop",
     "desc": "Asibrixx Planter Program - decorative planter curbs and pots with algarve, cacti and fernleaf plants",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/041020.ASI-Berlin.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/ASI-Berlin.041020.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/ASI-Berlin.jpg",
     "site": "https://asi-berlin.com/",
     "instagram": "https://www.instagram.com/asi_berlin_shop/"
@@ -44,7 +144,7 @@
     "key": "041020fizzy",
     "company": "Fizzy Fingers",
     "desc": "Blue split plies - new stock",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/041020.Fizzy.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Fizzy.041020.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/FizzyFingers.jpg",
     "site": "https://fizzyfingersfb.bigcartel.com/",
     "instagram": "https://www.instagram.com/fizzyfingersfb/"
@@ -54,7 +154,7 @@
     "key": "041020flint",
     "company": "Flint Ltd",
     "desc": "Stock drop, every deck hand signed",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/041020.Flint.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Flint.041020.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Flint.jpg",
     "site": "https://flint.pt/",
     "instagram": "https://www.instagram.com/flint_ltd/"
@@ -64,7 +164,7 @@
     "key": "041020roundside",
     "company": "ROUND|SIDE",
     "desc": "Limited series based on design by @sonyapora",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/041020.Roundside.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Roundside.041020.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Roundside.jpg",
     "site": "https://www.instagram.com/roundside/",
     "instagram": "https://www.instagram.com/roundside/"
@@ -74,7 +174,7 @@
     "key": "040920zoo",
     "company": "The ZooKrew",
     "desc": "Splash bases with black kingpins",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040920.Zookrew.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Zookrew.040920.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/ZooKrew.jpg",
     "site": "https://zookrewfingerboards.bigcartel.com/",
     "instagram": "https://www.instagram.com/the_zookrew/"
@@ -84,7 +184,7 @@
     "key": "040520sex",
     "company": "Sex Fingerboards",
     "desc": "Stock drop",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040520.Sex.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Sex.040520.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/SexFingerboards.jpg",
     "site": "https://sexfingerboards.bigcartel.com/",
     "instagram": "https://www.instagram.com/sex.fingerboards/"
@@ -94,7 +194,7 @@
     "key": "040520wush",
     "company": "Wush",
     "desc": "3 Years of Wush Stock",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040520.Wush.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Wush.040520.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Wush.jpg",
     "site": "https://wush.bigcartel.com/",
     "instagram": "https://www.instagram.com/wushdecks/"
@@ -104,7 +204,7 @@
     "key": "040420dk",
     "company": "DK Fingerboards",
     "desc": "Completes with DK wheels, new graphics",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040420.DK.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/DK.040420.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/DK.jpg",
     "site": "https://www.dkfingerboards.com/",
     "instagram": "https://www.instagram.com/dkfb74/"
@@ -114,7 +214,7 @@
     "key": "040420goat",
     "company": "Goat on the Road",
     "desc": "Galaxy boards - 4 available",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040420.Goat.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Goat.040420.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/GoatOnTheRoad.jpg",
     "site": "https://goatontheroadfb.bigcartel.com/",
     "instagram": "https://www.instagram.com/goatontheroad_fb/"
@@ -124,7 +224,7 @@
     "key": "040420redemption",
     "company": "Redemption Fingerboards",
     "desc": "First new graphics in 5 months - 2020 Spring stock drop",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040420.Redemption.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Redemption.040420.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Redemption.jpg",
     "site": "https://www.redemptionfb.com/",
     "instagram": "https://www.instagram.com/redemptionfingerboards/"
@@ -134,7 +234,7 @@
     "key": "040320muck",
     "company": "Muck FB",
     "desc": "New split patterns",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040320.Muck.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Muck.040320.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Muck.jpg",
     "site": "https://www.muckfb.com/",
     "instagram": "https://www.instagram.com/muckspoppg/"
@@ -144,7 +244,7 @@
     "key": "040120collins",
     "company": "Collins Wood",
     "desc": "New custom bench, discounted curbs",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040120.Collinswood.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Collinswood.040120.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Collinswood.jpg",
     "site": "https://collinswood.bigcartel.com/",
     "instagram": "https://www.instagram.com/psychedylic/"
@@ -154,7 +254,7 @@
     "key": "040120tricky",
     "company": "Tricky Fingerboards",
     "desc": "Stock drop, new graphics",
-    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/040120.Tricky.jpg",
+    "post": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/post/Tricky.040120.jpg",
     "logo": "https://s3.us-east-2.amazonaws.com/fingerboarding.info/img/logo/Wush.jpg",
     "site": "https://www.trickyfingerboards.com/",
     "instagram": "https://www.instagram.com/tricky_fingerboards/"
