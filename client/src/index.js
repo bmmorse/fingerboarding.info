@@ -27,7 +27,8 @@ class App extends React.Component {
 
   display = () => {
     let newData = data.map((e) => {
-      return <Post data={e} key={e.key} />;
+      let key = `${e.company} ${e.date}`;
+      return <Post data={e} key={key} />;
     });
 
     newData.splice(this.state.displayed);

@@ -22,8 +22,6 @@ app.get("*", (req, res) => {
 app.use((err, req, res, next) => {
   if (err) {
     res.sendStatus(400);
-    console.log(err);
-    console.log("***** ERROR *****");
   } else {
     next();
   }
