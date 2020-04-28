@@ -1,90 +1,77 @@
-import React, { useEffect } from "react";
-import ReactDOM from "react-dom";
+import React, { useState, useEffect } from 'react';
+import ReactDOM from 'react-dom';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
   useLocation,
-} from "react-router-dom";
+} from 'react-router-dom';
 
 // post Component
-import { Post } from "./components/Post";
+import { Post } from './components/Post';
 
-import { Logo } from "./components/Logo";
-import "./index.scss";
+import { Logo } from './components/Logo';
+import './index.scss';
 
 // data
-const data = require("./data/data.json");
+const data = require('./data/data.json');
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      displayed: 5,
-    };
-  }
+function App() {
+  const [displayed, setDisplayed] = useState(5);
 
-  display = () => {
+  let display = () => {
     let newData = data.map((e) => {
       let key = `${e.company} ${e.date}`;
       return <Post data={e} key={key} />;
     });
 
-    newData.splice(this.state.displayed);
+    newData.splice(displayed);
     return newData;
   };
 
-  loadMore = () => {
-    this.setState({ displayed: this.state.displayed + 5 });
+  let loadMore = () => {
+    setDisplayed(displayed + 5);
   };
 
-  reload = () => {
+  let reload = () => {
     window.location.reload();
   };
 
-  render() {
-    return (
-      <div id="App">
-        <Router>
-          <ScrollToTop />
-          <Switch>
-            {/* the index page */}
-            <Route exact path="/">
-              <div className="header">
-                <Logo className="logo" />
-                <h1>
-                  <a href="#" onClick={this.reload}>
-                    fingerboarding.info
-                  </a>
-                </h1>
-              </div>
+  return (
+    <div id='App'>
+      <Router>
+        <ScrollToTop />
+        <Switch>
+          {/* the index page */}
+          <Route exact path='/'>
+            <div className='header'>
+              <a href='#' onClick={reload}>
+                <Logo className='logo' />
+              </a>
+            </div>
 
-              <div className="posts">
-                <h2>LATEST RELEASES</h2>
-                {this.display()}
-              </div>
-              <div className="loadMore">
-                <button
-                  onClick={(e) => {
-                    this.loadMore();
-                  }}
-                  className="loadButton"
-                >
-                  MORE
-                </button>
-              </div>
-            </Route>
+            <div className='posts'>{display()}</div>
+            <div className='loadMore'>
+              <button
+                onClick={(e) => {
+                  loadMore();
+                }}
+                className='loadButton'
+              >
+                +
+              </button>
+            </div>
+          </Route>
 
-            {/* 404 redirect to index */}
-            <Route path="*">
-              <Redirect to="/" />
-            </Route>
-          </Switch>
-        </Router>
-      </div>
-    );
-  }
+          {/* 404 redirect to index */}
+          <Route path='*'>
+            <Redirect to='/' />
+          </Route>
+        </Switch>
+      </Router>
+    </div>
+  );
 }
 
 /**
@@ -101,4 +88,4 @@ function ScrollToTop() {
   return null;
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'));

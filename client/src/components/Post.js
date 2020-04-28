@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 /**
  * <Post data={obj} key={obj.key} />
@@ -9,7 +9,7 @@ import React from "react";
 function Post(props) {
   let formatDate = (date) => {
     const dateObject = new Date(date);
-    const month = new Intl.DateTimeFormat("en-US", { month: "long" }).format(
+    const month = new Intl.DateTimeFormat('en-US', { month: 'long' }).format(
       dateObject
     );
     const formattedDate = `${month} ${dateObject.getDate()}`;
@@ -17,32 +17,34 @@ function Post(props) {
   };
 
   return (
-    <div className="post">
-      <div className="postHeader">
-        <img className="companyLogo" src={props.data.logo} />
-        <h3 className="postDate">{formatDate(props.data.date)}</h3>
-        <h4 className="companyName">{props.data.company}</h4>
-      </div>
+    <div className='post fade-in'>
+      <img className='post-image' src={props.data.post} alt='' />
+      <div className='post-wrapper-info'>
+        <img className='post-company-logo' src={props.data.logo} />
+        <div className='post-info'>
+          <h3 className='post-date'>{formatDate(props.data.date)}</h3>
+          <h4 className='post-company-name'>{props.data.company}</h4>
 
-      <img className="postImg" src={props.data.post} alt="" />
-      <p className="text">{props.data.desc}</p>
-      <div className="buttons">
-        <a
-          href={props.data.site}
-          className="link website"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          website
-        </a>
-        <a
-          href={props.data.instagram}
-          className="link instagram"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          instagram
-        </a>
+          <p className='post-text'>{props.data.desc}</p>
+          <div className='post-buttons'>
+            <a
+              href={props.data.site}
+              className='link website'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              website
+            </a>
+            <a
+              href={props.data.instagram}
+              className='link instagram'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              instagram
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;600;700&display=swap');
+// @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
 
 $_black: #333333;
 $_grey: #d0d0d0;
@@ -8,13 +9,14 @@ $_pink: #cc0066;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 /* body styles and general resets */
 body {
   color: $_black;
-  font-size: 12pt;
-  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
   img {
     display: block;
   }
@@ -58,94 +60,62 @@ body {
 }
 
 .header {
-  margin: 40px 40px 100px 40px;
+  padding: 40px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  // the SVG logo
-  .logo {
-    width: 40px;
-  }
+  justify-content: center;
 
-  h1 {
-    font-size: 16px;
+  h1 a {
+    font-weight: 600;
   }
 }
 
 .posts {
-  padding: 0 20px;
-  h2 {
-    text-align: center;
-    font-size: 10px;
-    color: #2f2f2f;
-    margin-bottom: 45px;
-  }
-}
+  .post {
+    margin: 0 0 60px 0;
 
-.post {
-  padding: 30px 20px;
-  margin: 0 0 60px 0;
-  background: #ffffff;
-  box-shadow: 0 0 10px 1px #efefef;
-
-  .postHeader {
-    display: grid;
-    grid-template-columns: 120px auto;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-      "logo date"
-      "logo company";
-
-    .companyLogo {
-      width: 90px;
-      grid-area: logo;
-      box-shadow: 0 0 4px 0 rgba(185, 185, 185, 0.5);
+    .post-image {
+      width: 100%;
     }
-
-    .companyName {
-      font-size: 20px;
-      line-height: 20px;
-      font-weight: 400;
-    }
-
-    .postDate {
-      grid-area: date;
-      align-self: end;
-      font-weight: 100;
-      font-size: 14px;
-      color: #747474;
-    }
-  }
-
-  .postImg {
-    width: 100%;
-    margin: 30px 0;
-  }
-
-  .text {
-    padding: 0 30px;
-    font-size: 14px;
-    font-weight: 300;
-    color: #464646;
-  }
-
-  .buttons {
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 0 0 0;
-    padding: 0 5%;
-    a {
-      width: 45%;
-      height: 40px;
+    .post-wrapper-info {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 12px;
-      font-weight: 300;
-      color: white;
-      background-image: linear-gradient(180deg, #33494d 0%, #111111 100%);
-      box-shadow: 0 4px 8px -6px #7f7f7f;
-      border-radius: 5px;
+      align-items: flex-start;
+      padding: 20px;
+
+      .post-company-logo {
+        max-width: 60px;
+        margin-right: 30px;
+        box-shadow: 0 0 4px 0 rgba(185, 185, 185, 0.5);
+      }
+
+      .post-date {
+        font-weight: 100;
+        padding-bottom: 2px;
+      }
+
+      .post-company-name {
+        font-size: 26px;
+        font-weight: 600;
+      }
+      .post-text {
+        font-weight: 100;
+        margin: 20px 0 30px 0;
+      }
+
+      .post-buttons {
+        display: flex;
+
+        a {
+          width: 75px;
+          padding: 15px 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 300;
+          font-size: 12px;
+          border: 1px solid #eeeeee;
+          margin: 0 30px 0 0;
+        }
+      }
     }
   }
 }
@@ -153,17 +123,98 @@ body {
 .loadMore {
   display: flex;
   justify-content: center;
-  margin: 100px 0;
+  margin-bottom: 20px;
   .loadButton {
-    width: 70%;
-    margin: 0 30px;
+    width: 90%;
+    padding: 20px 0;
     border: none;
-    height: 60px;
-    font-size: 14px;
     font-weight: 300;
-    color: white;
-    background-image: linear-gradient(179deg, #4b4b4b 1%, #4b0000 100%);
-    box-shadow: 0 0 24px 7px #fffacc;
-    border-radius: 30px;
+    font-size: 20px;
+    color: #92c7ff;
+    box-shadow: 0 0 4px -1px #333333;
+    background: #ffffff;
+  }
+}
+
+.fade-in {
+  $speed: 2000ms;
+  animation: fadeIn ease $speed;
+  -webkit-animation: fadeIn ease $speed;
+  -moz-animation: fadeIn ease $speed;
+  -o-animation: fadeIn ease $speed;
+  -ms-animation: fadeIn ease $speed;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    display: hidden;
+  }
+  20% {
+    opacity: 0;
+    display: visible;
+  }
+  100% {
+    opacity: 1;
+    display: visible;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    display: hidden;
+  }
+  20% {
+    opacity: 0;
+    display: visible;
+  }
+  100% {
+    opacity: 1;
+    display: visible;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    display: hidden;
+  }
+  20% {
+    opacity: 0;
+    display: visible;
+  }
+  100% {
+    opacity: 1;
+    display: visible;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    display: hidden;
+  }
+  20% {
+    opacity: 0;
+    display: visible;
+  }
+  100% {
+    opacity: 1;
+    display: visible;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    display: hidden;
+  }
+  20% {
+    opacity: 0;
+    display: visible;
+  }
+  100% {
+    opacity: 1;
+    display: visible;
   }
 }
