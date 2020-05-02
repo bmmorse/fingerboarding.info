@@ -52,12 +52,12 @@ function App() {
             </div>
 
             <div className='posts'>{display()}</div>
-            <div className='loadMore'>
+            <div className='load-more'>
               <button
                 onClick={(e) => {
                   loadMore();
                 }}
-                className='loadButton'
+                className='load-more-button'
               >
                 +
               </button>

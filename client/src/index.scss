@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;600;700&display=swap');
-// @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
 
 $_black: #333333;
 $_grey: #d0d0d0;
@@ -50,6 +49,16 @@ body {
   }
 }
 
+.header {
+  padding: 50px 0 60px 0;
+  display: flex;
+  justify-content: center;
+
+  h1 a {
+    font-weight: 600;
+  }
+}
+
 /* the outer app div */
 #App {
   width: 100%;
@@ -59,80 +68,81 @@ body {
   flex-direction: column;
 }
 
-.header {
-  padding: 40px;
-  display: flex;
-  justify-content: center;
+.post {
+  margin: 0 0 60px 0;
 
-  h1 a {
-    font-weight: 600;
+  .post-image {
+    width: 100%;
   }
-}
+  .post-info {
+    padding: 0 15px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0 30px;
+    grid-template-areas:
+      'logo date'
+      'logo company'
+      'logo text'
+      'logo buttons';
 
-.posts {
-  .post {
-    margin: 0 0 60px 0;
+    .post-info-logo {
+      grid-area: logo;
+      max-width: 80px;
+    }
 
-    .post-image {
+    .post-info-date {
+      font-weight: 300;
+      padding-left: 3px;
+      grid-area: date;
+    }
+
+    .post-info-company {
+      font-size: 30px;
+      font-weight: 600;
+      grid-area: company;
+    }
+    .post-info-text {
+      font-weight: 300;
+      padding: 20px 0 40px 2px;
+      grid-area: text;
+      font-size: 16px;
+    }
+
+    .post-info-buttons {
       width: 100%;
-    }
-    .post-wrapper-info {
+      grid-area: buttons;
       display: flex;
-      align-items: flex-start;
-      padding: 20px;
 
-      .post-company-logo {
-        max-width: 60px;
-        margin-right: 30px;
-        box-shadow: 0 0 4px 0 rgba(185, 185, 185, 0.5);
-      }
-
-      .post-date {
-        font-weight: 100;
-        padding-bottom: 2px;
-      }
-
-      .post-company-name {
-        font-size: 26px;
-        font-weight: 600;
-      }
-      .post-text {
-        font-weight: 300;
-        margin: 20px 0 30px 0;
-      }
-
-      .post-buttons {
+      .link {
+        width: 50%;
+        padding: 30px 0;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+        font-size: 12px;
+        border: 1px solid #eeeeee;
+      }
 
-        a {
-          width: 75px;
-          padding: 15px 0;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-weight: 300;
-          font-size: 12px;
-          border: 1px solid #eeeeee;
-          margin: 0 30px 0 0;
-        }
+      .website {
+        margin-right: 1.5em;
       }
     }
   }
 }
 
-.loadMore {
+.load-more {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
-  .loadButton {
-    width: 90%;
-    padding: 20px 0;
+  .load-more-button {
+    width: 100%;
+    padding: 45px 0;
     border: none;
     font-weight: 300;
     font-size: 20px;
-    color: #92c7ff;
-    box-shadow: 0 0 4px -1px #333333;
-    background: #ffffff;
+    background: $_black;
+    color: white;
   }
 }
 
@@ -143,78 +153,105 @@ body {
   -moz-animation: fadeIn ease $speed;
   -o-animation: fadeIn ease $speed;
   -ms-animation: fadeIn ease $speed;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    display: hidden;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      display: hidden;
+    }
+    20% {
+      opacity: 0;
+      display: visible;
+    }
+    100% {
+      opacity: 1;
+      display: visible;
+    }
   }
-  20% {
-    opacity: 0;
-    display: visible;
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      display: hidden;
+    }
+    20% {
+      opacity: 0;
+      display: visible;
+    }
+    100% {
+      opacity: 1;
+      display: visible;
+    }
   }
-  100% {
-    opacity: 1;
-    display: visible;
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      display: hidden;
+    }
+    20% {
+      opacity: 0;
+      display: visible;
+    }
+    100% {
+      opacity: 1;
+      display: visible;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      display: hidden;
+    }
+    20% {
+      opacity: 0;
+      display: visible;
+    }
+    100% {
+      opacity: 1;
+      display: visible;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      display: hidden;
+    }
+    20% {
+      opacity: 0;
+      display: visible;
+    }
+    100% {
+      opacity: 1;
+      display: visible;
+    }
   }
 }
 
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    display: hidden;
-  }
-  20% {
-    opacity: 0;
-    display: visible;
-  }
-  100% {
-    opacity: 1;
-    display: visible;
+@media (min-width: 500px) {
+  .post {
+    .post-info {
+      .post-info-company {
+        font-size: 40px;
+      }
+    }
   }
 }
 
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    display: hidden;
-  }
-  20% {
-    opacity: 0;
-    display: visible;
-  }
-  100% {
-    opacity: 1;
-    display: visible;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    display: hidden;
-  }
-  20% {
-    opacity: 0;
-    display: visible;
-  }
-  100% {
-    opacity: 1;
-    display: visible;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    display: hidden;
-  }
-  20% {
-    opacity: 0;
-    display: visible;
-  }
-  100% {
-    opacity: 1;
-    display: visible;
+@media (min-width: 800px) {
+  .post {
+    .post-info {
+      .post-info-company {
+        font-size: 60px;
+      }
+      .post-info-logo {
+        max-width: 100px;
+      }
+      .post-info-text {
+        font-size: 20px;
+      }
+    }
   }
 }

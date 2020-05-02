@@ -19,31 +19,30 @@ function Post(props) {
   return (
     <div className='post fade-in'>
       <img className='post-image' src={props.data.post} alt='' />
-      <div className='post-wrapper-info'>
-        <img className='post-company-logo' src={props.data.logo} />
-        <div className='post-info'>
-          <h3 className='post-date'>{formatDate(props.data.date)}</h3>
-          <h4 className='post-company-name'>{props.data.company}</h4>
+      <div className='post-info'>
+        <img className='post-info-logo' src={props.data.logo} />
 
-          <p className='post-text'>{props.data.desc}</p>
-          <div className='post-buttons'>
-            <a
-              href={props.data.site}
-              className='link website'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
-              website
-            </a>
-            <a
-              href={props.data.instagram}
-              className='link instagram'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
-              instagram
-            </a>
-          </div>
+        <h3 className='post-info-date'>{formatDate(props.data.date)}</h3>
+        <h4 className='post-info-company'>{props.data.company}</h4>
+
+        <p className='post-info-text'>{props.data.desc}</p>
+        <div className='post-info-buttons'>
+          <a
+            href={props.data.site}
+            className='link website'
+            rel='noopener noreferrer'
+            target='_blank'
+          >
+            website
+          </a>
+          <a
+            href={props.data.instagram}
+            className='link instagram'
+            rel='noopener noreferrer'
+            target='_blank'
+          >
+            instagram
+          </a>
         </div>
       </div>
     </div>
